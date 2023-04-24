@@ -10,10 +10,10 @@ const Navbar = () => {
         setNav(!nav)
     }
     return (
-        <div className="flex mt-5 justify-between items-center h-10 max-w-[1240px] mx-auto px-4">
+        <div className="flex text-xl mt-5 justify-between items-center h-10 max-w-[1240px] mx-auto px-4">
             <h1 className="w-full text-3xl font-bold text-[#00df9a] mt-25"> Logo
             </h1>
-            <ul className="flex hidden">
+            <ul className="hidden md:flex">
                 <li className="p-4">About</li>
                 <li className="p-4">Home</li>
                 <li className="p-4">Menu</li>
@@ -24,7 +24,7 @@ const Navbar = () => {
             <div onClick={handleNav} className='block md:hidden'>
             {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
             </div>
-            <div className={!nav ? 'fixed left-0 mt-5 top-12 w-[60%] border-r bourder-r-gray-900 h-full bg-[#edefee] ease-in-out duration-500 mt-150' : 'fixed left-[-100%]' }>
+            <div className={!nav ? 'fixed text-xl left-0 mt-5 top-12 w-[60%] border-r bourder-r-gray-900 h-full bg-[#edefee] ease-in-out duration-500 mt-150' : 'fixed left-[-100%]' }>
             <ul className="pt-4">
                 <li className="p-4 border-b border-gray-600">About</li>
                 <li className="p-4 border-b border-gray-600">Home</li>
