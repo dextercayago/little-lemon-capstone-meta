@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-import {useFormik} from 'formik';
+import {useField, useFormik} from 'formik';
 import * as Yup from "yup";
 import DatePicker from "react-datepicker";
 
+
+
 import "react-datepicker/dist/react-datepicker.css";
+
 
 function Booking() {
 
@@ -16,6 +19,9 @@ function Booking() {
             firstName: "",
             lastName: "", 
             email: "",
+            contactNumber:"",
+            selectTime:""
+
         },
         validationSchema: Yup.object({
             firstName: Yup.string()
@@ -107,7 +113,7 @@ function Booking() {
         </div>
 
         <div>
-
+      
         </div>
 
         <button type='submit'>Submit</button>

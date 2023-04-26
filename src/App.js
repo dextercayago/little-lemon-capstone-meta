@@ -7,12 +7,13 @@ import Aboutlittlelemon from './components/Aboutlittlelemon';
 import Footer from './components/Footer';
 import Booking from './components/Booking';
 
+
 function App() {
-  return (
+   return (
     <>
-    <Navbar />
-    <Booking />
-    <Footer />
+      <Navbar />
+      <Booking />
+      <Footer />
     </>
   );
 }
@@ -28,4 +29,11 @@ export default App;
     <Aboutlittlelemon />
     <Footer />
     </>
+*/
+/*
+<>
+<Navbar />
+<Booking />
+<Footer />
+</>
 */
