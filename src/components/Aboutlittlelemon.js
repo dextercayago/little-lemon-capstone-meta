@@ -5,7 +5,7 @@ import Aboutimage02 from "../assets/AboutImage02.png"
 
 const Aboutlittlelemon = () => {
     return (
-        <div className='flex flex-auto px-40'>
+        <div className='flex md:flex-row flex-col-reverse md:px-40 sm:px-20 px-10'>
         <div className=''>
         <h1 className='md:text-8xl sm:text-6xl text-4xl font-bold text-primary-yellow text-left  md:px-20 sm:px-18 px:17'>
           Little Lemon
@@ -18,7 +18,7 @@ const Aboutlittlelemon = () => {
         </p>    
         </div>
         <div className=''>
-            <img className=" w-30 h-30" src={Aboutimage01} alt="karen picture"/>
+            <img className="md:w-[1000px] sm:w-[500px] h-auto" src={Aboutimage01} alt="karen picture"/>
         </div>
         
         </div>

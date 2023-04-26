@@ -10,7 +10,7 @@ const Footer = () => {
             <img className=" w-30 h-30" src={Whitelogo} alt="white logo"/>
         </div>
         <div className=''>
-        <ul className="hidden md:flex flex-col text-primary-yellow mt-10 mb-10">
+        <ul className="md:flex flex-col text-primary-yellow md:mt-10 md:mb-10 mt-2 mb-2">
                 <li className="hover:text-secondary-dark">Home</li>
                 <li className="hover:text-secondary-dark">About</li> 
                 <li className="hover:text-secondary-dark">Menu</li>
@@ -21,8 +21,8 @@ const Footer = () => {
         </div>
 
         <div className=''>
-            <h2 className='mt-10 text-white text-2xl'> Contact Us</h2>
-        <ul className="hidden md:flex flex-col text-primary-yellow">
+            <h2 className='md:mt-10 md:mb-10 mt-2 mb-2 text-white text-2xl'> Contact Us</h2>
+        <ul className=" md:flex flex-col text-primary-yellow">
                 <li className="hover:text-secondary-dark">Address</li>
                 <li className="hover:text-secondary-dark">Phone Number</li> 
                 <li className="hover:text-secondary-dark">Email</li>
@@ -31,8 +31,8 @@ const Footer = () => {
         </div>
 
         <div className=''>
-            <h2 className='mt-10 text-white text-2xl'> Social Media</h2>
-        <ul className="hidden md:flex flex-col text-primary-yellow">
+            <h2 className='md:mt-10 md:mb-10 mt-2 mb-2 text-white text-2xl'> Social Media</h2>
+        <ul className=" md:flex flex-col text-primary-yellow">
                 <li className="hover:text-secondary-dark">Instagram</li>
                 <li className="hover:text-secondary-dark">Facebook</li> 
                 <li className="hover:text-secondary-dark">Twitter</li>

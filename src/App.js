@@ -5,15 +5,13 @@ import Specials from './components/Specials';
 import Testimonials from './components/Testimonials';
 import Aboutlittlelemon from './components/Aboutlittlelemon';
 import Footer from './components/Footer';
+import Booking from './components/Booking';
 
 function App() {
   return (
     <>
     <Navbar />
-    <Hero />
-    <Specials />
-    <Testimonials />
-    <Aboutlittlelemon />
+    <Booking />
     <Footer />
     </>
   );
@@ -21,7 +19,7 @@ function App() {
 
 export default App;
 
-/* 
+/* Orig HomePage
     <>
     <Navbar />
     <Hero />
